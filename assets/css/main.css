@@ -316,7 +316,7 @@ hr {
 .text-wrapper {
   height: 100%;
   display: table;
-  padding-left: 140px;
+  padding-left: 100px;
 }
 
 .text-wrapper > div {
@@ -672,7 +672,7 @@ hr {
 }
 
 #hero-area .contents {
-  padding: 170px 0px 50px;
+  padding: 110px 0px 50px;
 }
 
 #hero-area .contents .head-title {
