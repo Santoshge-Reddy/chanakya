@@ -43,16 +43,20 @@ tr:nth-child(even) {
   /*background-color: #dddddd;*/
 }
 
-.services-item{
+/*.services-item{
   min-height: 320px;
-}
+}*/
 .img-center {
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 50%;
 }
-    </style>
+
+
+
+
+</style>
 
   </head>
   <body>
@@ -63,7 +67,7 @@ tr:nth-child(even) {
       <nav class="navbar navbar-expand-md bg-inverse fixed-top scrolling-navbar">
         <div class="container">
           <!-- Brand and toggle get grouped for better mobile display -->
-          <a href="index.html" class="navbar-brand"><img src="assets/hel/img/logo.png" alt=""></a>       
+          <!-- <a href="index.html" class="navbar-brand"><img src="assets/img/logo.png" alt=""></a>        -->
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
             <i class="lni-menu"></i>
           </button>
@@ -127,15 +131,26 @@ tr:nth-child(even) {
 
       <!-- Hero Area Start -->
       <div id="hero-area" class="hero-area-bg">
-        <div class="container">
+        <div class="container contents">
           <div class="row">
-            <div class="col-md-12 col-sm-12">
-              <div class="contents text-center">
-                <h2 class="head-title wow fadeInUp">Sri Chanakya <br> Institute Of Hotel Management & C.T<span>Right Decision for Better Tomorrow ...</span></h2>
+            <div class="col-md-4 col-sm-12 text-center">
+              <!-- <div class="" style="padding:85px 0px 50px;"> -->
+              <img class="img-fluid" width="40%" src="assets/img/logo.png" alt="logo">
+            <!-- </div> -->
+            </div>
+            <div class="col-md-8 col-sm-12 " style="padding-top: 18px;">
+              <!-- <div class="contents" > -->
+                <h2  class="head-title wow fadeInUp" >Sri Chanakya <br>
+                                                    Institute Of Hotel 
+                                                    Management & C.T
+                                                    <span>Right Decision for Better Tomorrow ...</span></h2>
                 <!-- <div class="header-button wow fadeInUp" data-wow-delay="0.3s">
                   <a href="#services" class="btn btn-common">Explore</a>
                 </div> -->
-              </div>
+              <!-- </div> -->
+            </div>
+
+            <div class="col-md-12 col-sm-12">
               <div class="img-thumb text-center wow fadeInUp" data-wow-delay="0.6s">
                 <img class="img-fluid" src="assets/img/Chanakya_page-0005.jpg" alt="">
               </div>
@@ -218,12 +233,39 @@ tr:nth-child(even) {
           <p>A desire to help and empower others between community contributors in technology <br> began to grow in 1998.</p>
         </div>
         <div class="row">
+
           <!-- Services item -->
           <div class="col-md-6 col-lg-6 col-xs-12">
             <div class="services-item wow fadeInRight" data-wow-delay="0.1s">
-              <!-- <div class="icon">
-                <i class="lni-pencil"></i>
-              </div> -->
+              <img class="img-fluid" src="assets/img/courses/courses4.jpg" >
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-6 col-xs-12">
+            <div class="services-item wow fadeInRight" data-wow-delay="0.1s">
+              <img class="img-fluid" src="assets/img/courses/courses3.jpg" >
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-6 col-xs-12">
+            <div class="services-item wow fadeInRight" data-wow-delay="0.1s">
+              <img class="img-fluid" src="assets/img/courses/courses2.jpg" >
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-6 col-xs-12">
+            <div class="services-item wow fadeInRight" data-wow-delay="0.1s">
+              <img class="img-fluid" src="assets/img/courses/courses1.jpg" >
+            </div>
+          </div>
+
+
+
+
+
+          <!-- Services item -->
+          <!--<div class="col-md-6 col-lg-6 col-xs-12">
+            <div class="services-item wow fadeInRight" data-wow-delay="0.1s">
               <div class="services-content">
                 <h3 class="text-center"><a href="#">BHM&C.T.</a></h3>
                 <p class="text-center"><b>(Bachelor of Hotel Management & Catering Technology)</b></p>
@@ -245,13 +287,10 @@ tr:nth-child(even) {
                 </table>
               </div>
             </div>
-          </div>
+          </div> -->
           <!-- Services item -->
-          <div class="col-md-6 col-lg-6 col-xs-12">
+          <!-- <div class="col-md-6 col-lg-6 col-xs-12">
             <div class="services-item wow fadeInRight" data-wow-delay="0.2s">
-              <!-- <div class="icon">
-                <i class="lni-briefcase"></i>
-              </div> -->
               <div class="services-content">
                 <h3 class="text-center"><a href="#">DHM</a></h3>
                 <p class="text-center"><b>(Diploma in Hotel Management)</b></p>
@@ -273,13 +312,10 @@ tr:nth-child(even) {
                 </table>
               </div>
             </div>
-          </div>
+          </div> -->
           <!-- Services item -->
-          <div class="col-md-6 col-lg-6 col-xs-12">
+          <!-- <div class="col-md-6 col-lg-6 col-xs-12">
             <div class="services-item wow fadeInRight" data-wow-delay="0.3s">
-              <!-- <div class="icon">
-                <i class="lni-cog"></i>
-              </div> -->
               <div class="services-content">
                 <h3 class="text-center"><a href="#">PGDHM</a></h3>
                 <p class="text-center"><b>(Post Graduation Diploma in Hotel Management)</b></p>
@@ -301,7 +337,7 @@ tr:nth-child(even) {
                 </table>
               </div>
             </div>
-          </div>
+          </div> -->
           <!-- Services item -->
           <!-- <div class="col-md-6 col-lg-6 col-xs-12">
             <div class="services-item wow fadeInRight" data-wow-delay="0.6s">
@@ -353,11 +389,8 @@ tr:nth-child(even) {
             </div>
           </div> -->
           <!-- Services item -->
-          <div class="col-md-6 col-lg-6 col-xs-12">
+          <!-- <div class="col-md-6 col-lg-6 col-xs-12">
             <div class="services-item wow fadeInRight" data-wow-delay="0.8s">
-              <!-- <div class="icon">
-                <i class="lni-rocket"></i>
-              </div> -->
               <div class="services-content">
                 <h3 class="text-center"><a href="#">Craft Courses</a></h3>
                 <p class="text-center"><b>(F&B Service/F&B Production/Front Office/Housekeeping)</b></p>
@@ -380,7 +413,7 @@ tr:nth-child(even) {
                 </table>
               </div>
             </div>
-          </div>
+          </div> -->
         </div>
       </div>
     </section>
@@ -926,8 +959,7 @@ tr:nth-child(even) {
         <div class="section-header text-center">
           <h2 class="section-title wow fadeInDown" data-wow-delay="0.3s">Infrastructure and Facilities</h2>
           <p>CHANAKYA is a premier and one of the best institutions in the state of Andhra Pradesh. lt is committed to excellence and
-innovation in generating technical expertise and managerial capabilities for global Industry. The institute is built in 1 acre land
-with 20,000 sft . The institute is being maintained and run uniquely. The infrastructure is developed, keeping in mind the
+innovation in generating technical expertise and managerial capabilities for global Industry. The institute is being maintained and run uniquely. The infrastructure is developed, keeping in mind the
 requirements and demands of the industry. The holistic and participative atmosphere ensures total development of the students.</p>
         </div>
         <div class="row">
